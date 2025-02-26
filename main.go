@@ -33,24 +33,24 @@ func classification(schoolYear int) string{
   }
 }
 
-//main function
-func main(){
+// //main function
+// func main(){
 
-  var  student1 Student
-  student1.name ="Felicia Forester"
-  student1.major = "CS Engineering"
-  student1.numClasses = 5
-  student1.GPA = 4.00
-  student1.GradStatus = false
-  student1.class = classification(4)
+//   var  student1 Student
+//   student1.name ="Felicia Forester"
+//   student1.major = "CS Engineering"
+//   student1.numClasses = 5
+//   student1.GPA = 4.00
+//   student1.GradStatus = false
+//   student1.class = classification(4)
 
-  if student1.class == "Senior"{
-    fmt.Println(student1)
-    fmt.Println("Congrats!")
+//   if student1.class == "Senior"{
+//     fmt.Println(student1)
+//     fmt.Println("Congrats!")
 
-  } else {
-    fmt.Println(student1)
+//   } else {
+//     fmt.Println(student1)
 
-  }
+//   }
 
-}
+// }
