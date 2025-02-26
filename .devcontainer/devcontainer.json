@@ -13,6 +13,7 @@
     "vscode": {
       "settings": {
         // This Glob should be the same as .github/workflows/linter.yaml Markdownlint
+        "code-runner.runInTerminal": true,
         "terminal.integrated.defaultProfile.linux": "zsh",
         "editor.inlineSuggest.enabled": true,
         "editor.copyWithSyntaxHighlighting": false,

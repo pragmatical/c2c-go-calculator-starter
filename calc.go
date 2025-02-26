@@ -14,6 +14,10 @@ func multi(a int, b int) int {
 	return a * b
 }
 
+func div(a int, b int) float32 {
+	return float32(a) / float32(b)
+}
+
 //1- create a division function (div) with 2 integer parameters and a float return
 
 func goCal(firstNum int, secondNum int) {
@@ -41,6 +45,9 @@ func main() {
 	fmt.Scanf("%d", &firstNum)
 
 	//2- ask the user to enter the second number and store the value in "secondNum"
+	fmt.Print("Enter the second number: ")
+	fmt.Scanf("%d", &secondNum)
 
 	//3- Call the "GoCal" function with the proper parameters
+	goCal(firstNum, secondNum)
 }
